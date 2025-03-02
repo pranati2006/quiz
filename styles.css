@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(255, 255, 255);
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+
+}
+
+
+
+#quesno {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+#box {
+    background-color: rgb(248, 226, 160);
+    width: 50%;
+
+
+    max-width: 400px;
+
+    margin: auto;
+
+
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+@media (max-width:470px) {
+    body {
+        padding: 20px;
+
+    }
+
+    #box {
+        width: 100%;
+    }
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(251, 241, 194);
+    min-height: 30px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#optionbox {
+    width: 80%;
+    border: rgb(223, 171, 30) solid 1px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+
+    gap: 30px;
+
+
+
+
+}
+
+.option {
+
+    width: 80%;
+    min-height: 30px;
+
+
+    margin: auto;
+
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 3px 3px 5px rgb(244, 183, 69);
+    border: solid 2px transparent;
+
+}
+
+.optval {
+
+    padding: 10px;
+
+
+
+    width: 80%;
+    background-color: rgb(232, 223, 121);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+
+.optind {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    width: 20%;
+    background-color: rgb(224, 209, 97);
+
+
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+button {
+
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: blanchedalmond;
+
+
+
+}
+
+button:hover {
+    border: orange 2px solid;
+    padding: 8px 13px;
+}
+
+button:active {
+    background-color: orange;
+}
+
+.option:hover {
+    border: orange 2px solid;
+
+}
+
+.correct {
+    border: rgb(20, 174, 25) solid 2px;
+}
+
+.correct:hover {
+    border: rgb(20, 174, 25) solid 2px;
+}
+
+.wrong {
+    border: rgb(142, 17, 19) solid 2px;
+}
+
+.wrong:hover {
+    border: rgb(142, 17, 19) solid 2px;
+}
